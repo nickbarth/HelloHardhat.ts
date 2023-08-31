@@ -1,0 +1,22 @@
+{
+  "name": "hello-hardhat.ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "node": "npx hardhat node",
+    "compile": "npx hardhat compile",
+    "test": "npx hardhat test",
+    "console": "npx hardhat console --network localhost",
+    "deploy": "npx hardhad compile && npx hardhat run scripts/deploy.ts --network localhost",
+    "greet": "npx hardhat run scripts/greet.ts --network localhost"
+  },
+  "author": "",
+  "license": "UNLICENSE",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-ethers": "^3.0.4",
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "ethers": "^6.7.1",
+    "hardhat": "^2.17.2"
+  }
+}
