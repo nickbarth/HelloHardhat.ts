@@ -2,7 +2,7 @@
 
 This project demonstrates a basic Hardhat usage in TypeScript.
 
-Try running some of the following tasks:
+Try running the following tasks:
 
 ```shell
 npx hardhat help
